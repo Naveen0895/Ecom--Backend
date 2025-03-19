@@ -1,12 +1,12 @@
 const express = require('express');
 const app = express();
-const {User} = require('./model/User');
+const {User} = require('./model/user');
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const cors = require('cors');
 const morgan = require('morgan');
-const {Product} = require('./model/Product');
+const {Product} = require('./model/product');
 const {Cart} = require('./model/cart');
 
 //TK3kocpotYFg0E0X
